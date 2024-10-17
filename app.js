@@ -20,7 +20,6 @@ pathArray.map(path => {
     span.textContent = `${name}`;
     
 
-    //burani internetden axtardim svg faylinda tam uzerine dussun diye yazmisam 
     const rect = path.getBoundingClientRect();
     span.style.position = "absolute";
     span.style.left = rect.left + "px";
